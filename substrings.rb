@@ -6,7 +6,6 @@ def substring(string, dictionary)
         string.each do |sub|
             if sub.include?(word)
                 result[word] += 1 
-                #puts "word: #{word} sub: #{sub} #{result[word]}"
             end
         end
     end
